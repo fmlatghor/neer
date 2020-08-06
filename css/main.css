@@ -3,7 +3,7 @@ body {
 	line-height: 175%;
 	margin: 70px;
 	padding: 5px;
-	background: url(../res/bg.png);
+	background: url(../res/bg.webp);
 	background-repeat: no-repeat;
 	background-size: cover;
 }
