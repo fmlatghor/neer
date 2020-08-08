@@ -8,18 +8,37 @@ body {
 	background-size: cover;
 }
 
+a {
+	color: #72AEDE;
+}
+
 nav {
 	text-align: center;
 }
 
-footer {
-	text-align: center;
+footer {    
+        position: fixed;    
+        left: 0;    
+        bottom: 0;    
+        width: 100%;    
+        text-align: center;    
+	border: 2px solid black;
+	border-top-right-radius: 25px;
+	border-top-left-radius: 25px;
+	background: url(../res/swr.webp);
+	color: white;
+}    
+    
+footer a {    
+	margin: 5px;
+	padding: 5px;
 }
 
 .topnav {    
         overflow: hidden;
-	border: 2px solid black;
+	border: 2px solid green;
 	border-radius: 25px;
+	background: url(../res/swr.webp);
 }
     
 .topnav a {    
@@ -28,17 +47,17 @@ footer {
         text-decoration: none;    
         padding: 10px 12px;
         font-size: 17px;    
-        color: black;    
-	border: 2px solid black;
+	color: white;
+	border: 2px solid darkgreen;
 }    
     
 .topnav a:hover {    
-        background-color: #ddd;    
+        background-color: darkgreen;    
         color: black;
 }    
     
 .topnav a.active {    
-        background-color: black;
+        background-color: darkgreen;
         color: white;
 }
 
