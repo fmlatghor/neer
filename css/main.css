@@ -35,6 +35,21 @@ footer a {
 	text-decoration: none;
 }
 
+.no-bullet {
+	list-style: none;
+}
+
+.text-box {
+	background: url(../res/swr.webp);
+	color: white;
+	overflow: hidden;    
+        border: 2px solid green;    
+        border-radius: 25px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	padding: 10px;
+}
+
 .topnav {    
         overflow: hidden;
 	border: 2px solid green;
@@ -54,7 +69,6 @@ footer a {
     
 .topnav a:hover {    
         background-color: darkgreen;    
-        color: black;
 }    
     
 .topnav a.active {    
